@@ -1,0 +1,80 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ChoiceButton {
+  text-align: center;
+  display: flex;
+  flex-Direction: row;
+  justify-content: center;
+  height: 50px;
+  width : 60%;
+  margin-top: 50px;
+}
+
+.TabBtn {
+  flex: 1;
+  height: 50px;
+  border: 1px solid black;
+  cursor: pointer;
+  line-height: 50px;
+}
+
+.TabBtn.active {
+  background-color: lightyellow;
+}
+
+.writing {
+  width:100%;
+  height : 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.inputTitle {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.textContent {
+  margin-top: 50px;
+}
+
+.Buttons{
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.posting{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width:70%;
+  margin-top: 10px;
+}
+
+.record{
+  border: 1px dotted black;
+  margin : 10px;
+}
+
+
